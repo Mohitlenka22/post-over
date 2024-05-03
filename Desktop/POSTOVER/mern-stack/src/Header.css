@@ -1,0 +1,29 @@
+
+ .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+  border-bottom: 1px solid #e2dada;
+  padding: 10px 20px;
+}
+li{
+
+  list-style: none;
+}
+li >a{
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
+
+li > a :hover{
+  background: blue;
+  border-radius: 4px;
+}
+h2{
+  padding: 3px;
+  border-radius: 4px;
+  color: #fff;
+  background: linear-gradient(32deg,black 75%,purple 25%);
+}
